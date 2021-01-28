@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
+
+# Code modified from lab instruction
+
 import cgi
 import cgitb
 cgitb.enable()
@@ -12,7 +15,7 @@ class FollowingTheTAsInstructionsError(Exception):
         ))
 
 # Delete this line:
-raise FollowingTheTAsInstructionsError
+#raise FollowingTheTAsInstructionsError
 
 # Edit the following two lines:
 username = "hello"
